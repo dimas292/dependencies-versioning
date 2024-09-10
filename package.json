@@ -1,0 +1,33 @@
+{
+  "name": "belajar-nodejs",
+  "version": "1.0.0",
+  "description": "belajar nodejs NPM",
+  "homepage": "https://portofolio-omega-black.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimas/portofolio"
+  },
+  "exports" : {
+    "." : "./index.js",
+    "./write" : "./write.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "echo  'before start'",
+    "start" : "node index.js",
+    "poststart": "echo 'after start'"
+  },
+ 
+  "keywords": [
+    "dimas",
+    "nodejs",
+    "npm",
+    "backend"
+  ],
+  "author": "dimas",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
+}
